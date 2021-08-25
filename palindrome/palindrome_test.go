@@ -1,4 +1,4 @@
-package go_playground
+package palindrome
 
 import "testing"
 
@@ -23,7 +23,7 @@ func TestValidWordsPass(t *testing.T) {
 
 func TestIsCaseInsensitive(t *testing.T) {
 	cases := []string{
-		"Racecar",
+		"RaCEcar",
 		"NoOn",
 	}
 
